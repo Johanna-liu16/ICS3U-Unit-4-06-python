@@ -17,5 +17,6 @@ def main():
                 print("R {0} G {1} B {2}".format(r_value, g_value, b_value))
     print("\nDone.")
 
+
 if __name__ == "__main__":
     main()
