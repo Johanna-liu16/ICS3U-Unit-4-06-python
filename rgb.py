@@ -11,9 +11,9 @@ def main():
 
     # process
     value = input("Press Enter to print all RGB values.")
-    for r_value in range(0, 256):
-        for g_value in range(0, 256):
-            for b_value in range(0, 256):
+    for r_value in range(0, 255):
+        for g_value in range(0, 255):
+            for b_value in range(0, 255):
                 print("R {0} G {1} B {2}".format(r_value, g_value, b_value))
     print("\nDone.")
 
